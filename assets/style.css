@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+    --main-color : #c1fcd3;
+    --second-color: #0ccda3;
+    --bg-color: rgba(92, 55, 225, 0.979);
+    --border: .2rem solid #A084CA;
+}
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main {
+    background-color:var(--main-color);
+    margin-left: 550px;
+    height: 650px;
+    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+    border-bottom: var(--border);
+}
+
+.text-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -60px;
+}
+
+.text-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+    align-items: center;
+}
+
+#text {
+    height: 7rem;
+    width: 20rem;
+    border: none;
+    outline: 2px solid rgba(128, 128, 128, 0.623);
+    border-radius: 0.5rem;
+    resize: none;
+    font-size: 20px;
+    padding: 8px 10px;
+    margin-top:-20px;
+}
+
+.voice-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:4px;
+}
+
+.voice-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+    align-items: center;
+}
+
+#voice {
+    height: 3rem;
+    width: 20rem;
+    border: none;
+    outline: 2px solid rgba(128, 128, 128, 0.623);
+    border-radius: 0.4rem;
+    padding: 0px, 10px;
+    margin-top: -25px;
+}
+
+.submit {
+    background-color: var(--bg-color);
+    color: white;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
